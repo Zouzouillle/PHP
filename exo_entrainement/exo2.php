@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Ex2</title>
+        <title>Les variables et les opérations - Exercice 2</title>
     </head>
 
     <body>
