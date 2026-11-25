@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #eef6ff 0%, #dfeeff 35%, #dfe9f8 100%);
+    font-family: Georgia, serif;
+    color: #1f3d5b;
+}
+
+form {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 26px;
+    color: #1d3f64;
+    font-size: 2.7em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+img {
+    float: left;
+    border-radius: 18px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 12px 25px rgba(55, 89, 128, 0.18);
+}
+
+ul {
+    margin-left: 100px;
+    color: #486a8d;
+    line-height: 1.9;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "•";
+    color: #6ea3d8;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+p {
+    line-height: 1.8;
+}
+
+h2 {
+    color: #284f76;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #cfe1f8;
+    letter-spacing: 0.5px;
+}
+
+div {
+    margin: 20px 0;
+    padding: 24px 26px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(167, 196, 231, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 10px 24px rgba(75, 109, 147, 0.08);
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    color: #375c84;
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    border: 1px solid #c4d9f3;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.92);
+    color: #254d75;
+    padding: 9px 12px;
+    transition: all 0.2s ease;
+}
+
+input {
+    width: 200px;
+}
+
+select {
+    min-width: 150px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 85px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #7caee1;
+    box-shadow: 0 0 0 4px rgba(124, 174, 225, 0.14);
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 28px;
+    accent-color: #638ec8;
+}
+
+input[type="submit"] {
+    background: linear-gradient(135deg, #a5d3ff 0%, #7aaadf 100%);
+    border: 1px solid #5f95d2;
+    border-radius: 12px;
+    color: #183d64;
+    padding: 11px 22px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 10px 20px rgba(90, 136, 190, 0.18);
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(135deg, #b6dcff 0%, #8bb5e6 100%);
+}
+

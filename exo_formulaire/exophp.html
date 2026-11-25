@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Fiche pédagogique</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+
+      <h1> Fiche pédagogique</h1>
+      <img src="images/logo.gif"/>
+        <p> Nous souhaitons mieux vous connaître afin d'adapter notre formation :</p>
+        
+        <ul>
+            <li>à vos connaissances</li>
+            <li>à vos besoins</li>
+            <li>à votre projet professionnel</li>
+        </ul>
+
+<form method="post">   
+
+<div id="identité">   
+<h2>Votre identité</h2>
+
+<p>
+    <label for="Civilité">Civilité :</label>
+    <select name="civilite">
+        <option value="M.">M.</option>
+        <option value="Mme">Mme</option>
+        <option value="Mlle">Mlle</option>
+    </select>
+</p>
+
+<p>
+    <label for="Nom">Nom :</label>
+    <input type="text" name="Nom" />
+    <label for="Prénom">Prénom :</label>
+    <input type="text" name="Prénom"/>
+</p>
+
+<p>
+    <label for="Date de naissance">Date de naissance :</label>
+    <input type="date" name="Date de naissance"/>
+    <label for="Lieu de naissance">Lieu de naissance :</label>
+    <input type="text" name="Lieu de naissance"/>
+</p>
+</div> 
+
+<div id="coordonnées">
+    <h2>Vos coordonnées</h2>
+
+
+<p>
+    <label for="Portable">Portable :</label>
+    <input type="tel" name="Portable"/>
+</p>
+
+<p>
+    <label for="Mail">Mail :</label>
+    <input type="email" name="Mail"/>
+</p>
+
+<p>
+    <label for="Adresse">Adresse :</label>
+    <input type="text" name="Adresse"/>
+</p>
+</div>
+
+<div id="profils">
+<h2>Votre profil</h2>
+
+<p>
+
+    Votre niveau en HTML :
+    <input type="radio" name="niveau" value="Nul"/> Nul
+    <input type="radio" name="niveau" value="Moyen"/> Moyen
+    <input type="radio" name="niveau" value="Bon"/> Bon
+    <input type="radio" name="niveau" value="Excellent"/> Excellent
+
+</p>
+
+<p>
+
+    Aimez vous la programmation ? :
+    <input type="radio" name="programmation" value="Oui"/> Oui
+    <input type="radio" name="programmation" value="Non"/> Non
+</p>
+
+<p>
+
+    Expliquez pourquoi :
+    <textarea name="explication" rows="5" cols="50"></textarea>
+</p>
+
+<p>
+
+    Evaluez votre niveau en programmation :
+    <select name="niveauprog">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="AHOU">AHOU</option>
+    </select>    
+</p>
+
+<p>
+
+    Vous connaissez :
+    <input type="checkbox" name="CSS" value="CSS"/> CSS
+    <input type="checkbox" name="PHP" value="PHP"/> PHP
+    <input type="checkbox" name="JavaScript" value="JavaScript"/> JS
+    <input type="checkbox" name="MySQL" value="MySQL"/> MySQL
+</p>
+
+<p>
+
+    Expliquez vos motivations, vos projets, vos attentes :
+    <textarea name="explication" rows="5" cols="50"></textarea>
+</p>
+
+
+<p>
+    <input type="submit" value="Envoyer"/>
+</p>
+</div>
+</form>
+    </body>
+    
+</html>
